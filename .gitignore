@@ -1,22 +1,22 @@
 # ===== Unity =====
 
 # 자동 생성 폴더 (절대 올리면 안 됨)
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
 
 # MemoryCaptures
-/[Mm]emoryCaptures/
+[Mm]emoryCaptures/
 
 # Recordings
-/[Rr]ecordings/
+[Rr]ecordings/
 
 # Asset Store 캐시
-/[Aa]sset[Ss]tore[Tt]ools/
+[Aa]sset[Ss]tore[Tt]ools/
 
 # APK 빌드 결과물
 *.apk
