@@ -207,7 +207,7 @@ MonoBehaviour:
   Marker: {fileID: 1884649030752201358}
   TeleportLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   resolution: 30
   velocity: 8
   timestep: 0.08
