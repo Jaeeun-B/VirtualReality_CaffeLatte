@@ -203,14 +203,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RightController: {fileID: 4864398896600304933}
-  Arc: {fileID: 3426675236282694040}
-  Marker: {fileID: 1884649030752201358}
   TeleportLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   resolution: 30
-  velocity: 8
+  teleportVelocity: 8
   timestep: 0.08
+  Arc: {fileID: 3426675236282694040}
+  Marker: {fileID: 1884649030752201358}
 --- !u!114 &4427996660074122354
 MonoBehaviour:
   m_ObjectHideFlags: 0
