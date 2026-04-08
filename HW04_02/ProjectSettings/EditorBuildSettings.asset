@@ -5,18 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Zone1_Scale/Scenes/Zone1_Scale.unity
     guid: 246689736a02b433e939494243559804
-  - enabled: 1
+  - enabled: 0
     path: Assets/Zone2_Height/Scenes/Zone2_Height.unity
     guid: 754f9688974784430861006562bdc42f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Zone3_Interaction/Scenes/Zone3_Interaction.unity
     guid: dfcb6e694c76e487999a57f2261df7c7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Zone4_Movement/Scenes/Zone4_Movement.unity
     guid: 304376621f7fc4cd5b13265ae96f977b
+  - enabled: 1
+    path: Assets/HW_09/Elastic_Room/Scene_Elastic.unity
+    guid: ca44a38ccac10491ba6b12ab30370f97
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a87dc4a737c9d42128cc484238e626e9, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 07381df62eb504bfca65e44ebd87283f, type: 2}
