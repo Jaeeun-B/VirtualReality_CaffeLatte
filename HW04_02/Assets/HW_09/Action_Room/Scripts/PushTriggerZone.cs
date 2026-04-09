@@ -10,8 +10,7 @@ public class PushTriggerZone : MonoBehaviour
 
     void Update()
     {
-        // Quest 3 오른손 검지 트리거
-        if (playerInZone && OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
+        if (playerInZone && OVRInput.GetDown(OVRInput.RawButton.A))
         {
             pushWall.Push(playerTransform);
         }
@@ -19,19 +18,18 @@ public class PushTriggerZone : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // OVRPlayerController의 Tag 또는 컴포넌트로 감지
-        if (other.CompareTag("Player") || other.GetComponentInParent<OVRPlayerController>())
+        if (other.CompareTag("Player") || other.GetComponentInParent<EX_OVRInput_Combined_V2>())
         {
             playerInZone = true;
-            var ovr = other.GetComponentInParent<OVRPlayerController>();
-            playerTransform = ovr != null ? ovr.transform : other.transform;
-            Debug.Log("[작용/반작용] 오른손 트리거를 당겨 블록을 밀어보세요!");
+            var player = other.GetComponentInParent<EX_OVRInput_Combined_V2>();
+            playerTransform = player != null ? player.transform : other.transform;
+            Debug.Log("[작용/반작용] A 버튼을 눌러 블록을 밀어보세요!");
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") || other.GetComponentInParent<OVRPlayerController>())
+        if (other.CompareTag("Player") || other.GetComponentInParent<EX_OVRInput_Combined_V2>())
         {
             playerInZone = false;
             playerTransform = null;
