@@ -143,7 +143,7 @@ MonoBehaviour:
   RightController: {fileID: 7426144858353701556}
   TeleportLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   resolution: 30
   teleportVelocity: 8
   timestep: 0.08
